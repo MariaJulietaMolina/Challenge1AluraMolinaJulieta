@@ -1,3 +1,5 @@
+
+
 body{
     background-image: url('./scripts/fondo.jpg');
     background-size: cover;
@@ -133,3 +135,32 @@ header{
 textarea:focus {
     outline: none;
   }
+
+  @media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    .mensaje, .texto-1 {
+        width: 95%;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+
+    .copiar {
+        margin-top: 16px;
+        width: 100%; 
+        margin-left: 0; 
+        align-items: center;
+    }
+
+    .encriptar, .descencriptar{
+        margin-bottom: 20px;
+        width: 80%;
+    }
+
+   .footer{
+    margin-top: 10px;
+   }
+}
